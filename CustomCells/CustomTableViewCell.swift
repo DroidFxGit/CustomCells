@@ -39,39 +39,33 @@ class CustomTableViewCell: UITableViewCell, CKCircleMenuDelegate {
     
     @IBAction func touchUpInside(sender: AnyObject) {
         
-        if self.circleMenuView != nil {
-            circleMenuView.closeMenu()
-            self.circleMenuView = nil
-        }
-        else {
-            
-            let menuOrigin: CGPoint = CGPointMake(octoCatButton.frame.origin.x, octoCatButton.frame.origin.y)
-            
-            
-            var tOptions = [String : AnyObject]()
-            tOptions[CIRCLE_MENU_OPENING_DELAY] = self.delay
-            tOptions[CIRCLE_MENU_MAX_ANGLE] = self.angle
-            tOptions[CIRCLE_MENU_RADIUS] = self.radius
-            tOptions[CIRCLE_MENU_DIRECTION] = self.direction as? AnyObject
-            tOptions[CIRCLE_MENU_BUTTON_BACKGROUND_NORMAL] = UIColor(red: 0.0, green: 0.25, blue: 0.5, alpha: 1.0)
-            tOptions[CIRCLE_MENU_BUTTON_BACKGROUND_ACTIVE] = UIColor(red: 0.25, green: 0.5, blue: 0.75, alpha: 1.0)
-            tOptions[CIRCLE_MENU_BUTTON_BORDER] = UIColor.whiteColor()
-            tOptions[CIRCLE_MENU_DEPTH] = self.shadow
-            tOptions[CIRCLE_MENU_BUTTON_RADIUS] = "15.0"
-            tOptions[CIRCLE_MENU_BUTTON_BORDER_WIDTH] = "2.5"
-            tOptions[CIRCLE_MENU_TAP_MODE] = true
-            
-            let tMenu  = CKCircleMenuView.init(atOrigin: menuOrigin, usingOptions: tOptions, withImageArray: self.imageArray)
-            contentView.addSubview(tMenu)
-//            octoCatButton.addSubview(tMenu)
-            tMenu.openMenu()
-            tMenu.delegate = self
-            self.circleMenuView = tMenu
-        }
-        
+        addCircleMenuToButton()
     }
     
     func addCircleMenuToButton() {
+        
+        let menuOrigin: CGPoint = CGPointMake((octoCatButton.frame.origin.x + octoCatButton.frame.size.width / 2), (octoCatButton.frame.origin.y + octoCatButton.frame.size.height / 2))
+        
+        
+        var tOptions = [String : AnyObject]()
+        tOptions[CIRCLE_MENU_OPENING_DELAY] = self.delay
+        tOptions[CIRCLE_MENU_MAX_ANGLE] = self.angle
+        tOptions[CIRCLE_MENU_RADIUS] = self.radius
+        tOptions[CIRCLE_MENU_DIRECTION] = self.direction as? AnyObject
+        tOptions[CIRCLE_MENU_BUTTON_BACKGROUND_NORMAL] = UIColor(red: 0.0, green: 0.25, blue: 0.5, alpha: 1.0)
+        tOptions[CIRCLE_MENU_BUTTON_BACKGROUND_ACTIVE] = UIColor(red: 0.25, green: 0.5, blue: 0.75, alpha: 1.0)
+        tOptions[CIRCLE_MENU_BUTTON_BORDER] = UIColor.whiteColor()
+        tOptions[CIRCLE_MENU_DEPTH] = self.shadow
+        tOptions[CIRCLE_MENU_BUTTON_RADIUS] = "15.0"
+        tOptions[CIRCLE_MENU_BUTTON_BORDER_WIDTH] = "2.5"
+        tOptions[CIRCLE_MENU_TAP_MODE] = true
+        
+        let tMenu  = CKCircleMenuView.init(atOrigin: menuOrigin, usingOptions: tOptions, withImageArray: self.imageArray)
+        contentView.addSubview(tMenu)
+        //            octoCatButton.addSubview(tMenu)
+        tMenu.openMenu()
+        tMenu.delegate = self
+        self.circleMenuView = tMenu
     }
     
     
