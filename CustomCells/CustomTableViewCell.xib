@@ -36,30 +36,37 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.90495671452702697" colorSpace="calibratedRGB"/>
                     </view>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="octo_cat" translatesAutoresizingMaskIntoConstraints="NO" id="Ksw-eD-jM7">
-                        <rect key="frame" x="225" y="48" width="63" height="63"/>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KM8-Jl-QXQ">
+                        <rect key="frame" x="236" y="55" width="50" height="50"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="63" id="AfM-gC-HYM"/>
-                            <constraint firstAttribute="height" constant="63" id="TYI-8C-xEV"/>
+                            <constraint firstAttribute="height" constant="50" id="ZOE-DB-Xgb"/>
+                            <constraint firstAttribute="width" constant="50" id="xJJ-jI-rnc"/>
                         </constraints>
-                    </imageView>
+                        <state key="normal" image="octo_cat"/>
+                        <connections>
+                            <action selector="touchUpInside:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="AyS-lM-fKS"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="bottomMargin" secondItem="ZA5-UR-a6d" secondAttribute="bottom" constant="-8" id="2XL-NM-3ka"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="Ksw-eD-jM7" secondAttribute="trailing" constant="24" id="68W-pD-6UT"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="KM8-Jl-QXQ" secondAttribute="bottom" constant="46" id="A0f-xa-oxT"/>
                     <constraint firstAttribute="trailingMargin" secondItem="ZA5-UR-a6d" secondAttribute="trailing" constant="-8" id="DkJ-Rc-ASs"/>
                     <constraint firstAttribute="bottomMargin" secondItem="lPZ-gB-fUm" secondAttribute="bottom" id="Q3W-AG-eiB"/>
                     <constraint firstItem="lPZ-gB-fUm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="73" id="SV2-WG-MMe"/>
-                    <constraint firstItem="Ksw-eD-jM7" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="bW5-GL-qrn"/>
                     <constraint firstItem="ZA5-UR-a6d" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="cPD-MY-YxJ"/>
                     <constraint firstItem="ZA5-UR-a6d" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ehF-aR-DyU"/>
                     <constraint firstAttribute="leadingMargin" secondItem="lPZ-gB-fUm" secondAttribute="leading" id="eky-UO-J3R"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="KM8-Jl-QXQ" secondAttribute="trailing" constant="26" id="itO-8o-UP4"/>
                     <constraint firstItem="lPZ-gB-fUm" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="sVR-ft-S8t"/>
                     <constraint firstItem="ZA5-UR-a6d" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="sfU-Qh-DHX"/>
                     <constraint firstItem="ZA5-UR-a6d" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="u55-oz-uH1"/>
                     <constraint firstAttribute="trailingMargin" secondItem="lPZ-gB-fUm" secondAttribute="trailing" id="yAg-k6-Nr3"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="octoCatButton" destination="KM8-Jl-QXQ" id="0kv-TT-e9Y"/>
+            </connections>
             <point key="canvasLocation" x="413" y="425"/>
         </tableViewCell>
     </objects>

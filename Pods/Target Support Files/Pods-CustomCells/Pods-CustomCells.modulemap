@@ -1,0 +1,6 @@
+framework module Pods_CustomCells {
+  umbrella header "Pods-CustomCells-umbrella.h"
+
+  export *
+  module * { export * }
+}

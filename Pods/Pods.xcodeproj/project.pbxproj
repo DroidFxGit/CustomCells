@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061E092FCD7978E4664205D9158F49A6 /* Pods-CustomCells-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E64C88EEE23DF525305C515893B8C94F /* Pods-CustomCells-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E247D114F674F753557339BBBD1FEBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		99AB6F214FDDBD4C8EDE0BFAB56F601C /* CKCircleMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = AE69B21CB80205EC9BAF946C1968E483 /* CKCircleMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0526FCA4D6C5D4D3840F47F3627D4FC /* CKCircleMenuView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A25127009EE15D237888C3548F92B381 /* CKCircleMenuView-dummy.m */; };
+		A1DED5AB1C2545CFECCB73C99587535D /* CKCircleMenuView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65DB5672F188ED43B12E716590D547C0 /* CKCircleMenuView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A97F1B60756CC3911D4065F08187EC4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C5D0C8AB2129EE2DD20FA7C0DCF8DECD /* CKCircleMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 475F99B5400A6178A8D07656D5C89D8C /* CKCircleMenuView.m */; };
+		EDBE6648ED0F51EEA424085B0AED4AE5 /* Pods-CustomCells-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1338B42DF8DB2C5A47D44D5311109B0F /* Pods-CustomCells-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79DFA4D3A479B597CDC8E7B14324039F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB7366DE112C51190AD5817CFB5A87F2;
+			remoteInfo = CKCircleMenuView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EF4B91500B50D2944F0E15753BA231 /* Pods-CustomCells-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomCells-acknowledgements.plist"; sourceTree = "<group>"; };
+		10D8E3AF5A1CCA9869F3C75BF7633ED9 /* CKCircleMenuView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CKCircleMenuView.modulemap; sourceTree = "<group>"; };
+		110EE3D22B6CE648E432D62894181868 /* CKCircleMenuView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKCircleMenuView-prefix.pch"; sourceTree = "<group>"; };
+		1338B42DF8DB2C5A47D44D5311109B0F /* Pods-CustomCells-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomCells-dummy.m"; sourceTree = "<group>"; };
+		1AB1486C3EE80A1363BBADE82253DE79 /* CKCircleMenuView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CKCircleMenuView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FB6AB1DF633E59CFC6A99A9B3AD46C /* CKCircleMenuView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CKCircleMenuView.xcconfig; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		45EAE5D47853F45EA905ACC4BB24BB8A /* Pods-CustomCells.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomCells.debug.xcconfig"; sourceTree = "<group>"; };
+		475F99B5400A6178A8D07656D5C89D8C /* CKCircleMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CKCircleMenuView.m; path = CKCircleMenuView/CKCircleMenuView.m; sourceTree = "<group>"; };
+		4907BEAEAF2236DA0B310E5F9E4E0869 /* Pods-CustomCells-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomCells-frameworks.sh"; sourceTree = "<group>"; };
+		4A8A0856EA84D5AB1B74B86006A50D21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504263642512704E2C8B825A9FA175A4 /* Pods-CustomCells-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomCells-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65DB5672F188ED43B12E716590D547C0 /* CKCircleMenuView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKCircleMenuView-umbrella.h"; sourceTree = "<group>"; };
+		7239A8821F00B9D490F51234D0368E2E /* Pods-CustomCells.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CustomCells.modulemap"; sourceTree = "<group>"; };
+		7D03A23446E121DCF8375DC570BD5593 /* Pods_CustomCells.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomCells.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EF9D95815AB97C9ACB5638629F0402E /* Pods-CustomCells.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomCells.release.xcconfig"; sourceTree = "<group>"; };
+		A25127009EE15D237888C3548F92B381 /* CKCircleMenuView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CKCircleMenuView-dummy.m"; sourceTree = "<group>"; };
+		AE69B21CB80205EC9BAF946C1968E483 /* CKCircleMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CKCircleMenuView.h; path = CKCircleMenuView/CKCircleMenuView.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFD7D02E137B7F0CFEA18EC462AB43D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD225A0BD8753C843FEBBAF56F2C8E6 /* Pods-CustomCells-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomCells-resources.sh"; sourceTree = "<group>"; };
+		E64C88EEE23DF525305C515893B8C94F /* Pods-CustomCells-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomCells-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D03E4D2A48478FA4A1DC26A4A28F826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97F1B60756CC3911D4065F08187EC4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80EB0E5586FD38636CE22EFC3D3D249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E247D114F674F753557339BBBD1FEBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37665949F90D39D47C6F79B8D67B8479 /* Pods-CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				4A8A0856EA84D5AB1B74B86006A50D21 /* Info.plist */,
+				7239A8821F00B9D490F51234D0368E2E /* Pods-CustomCells.modulemap */,
+				504263642512704E2C8B825A9FA175A4 /* Pods-CustomCells-acknowledgements.markdown */,
+				01EF4B91500B50D2944F0E15753BA231 /* Pods-CustomCells-acknowledgements.plist */,
+				1338B42DF8DB2C5A47D44D5311109B0F /* Pods-CustomCells-dummy.m */,
+				4907BEAEAF2236DA0B310E5F9E4E0869 /* Pods-CustomCells-frameworks.sh */,
+				DDD225A0BD8753C843FEBBAF56F2C8E6 /* Pods-CustomCells-resources.sh */,
+				E64C88EEE23DF525305C515893B8C94F /* Pods-CustomCells-umbrella.h */,
+				45EAE5D47853F45EA905ACC4BB24BB8A /* Pods-CustomCells.debug.xcconfig */,
+				9EF9D95815AB97C9ACB5638629F0402E /* Pods-CustomCells.release.xcconfig */,
+			);
+			name = "Pods-CustomCells";
+			path = "Target Support Files/Pods-CustomCells";
+			sourceTree = "<group>";
+		};
+		7729394E943D8E66F08B594CC62585C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C4390785D5F360D8E1C44361D7A766E /* CKCircleMenuView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7729394E943D8E66F08B594CC62585C6 /* Pods */,
+				9617503572C7E1C473E90210F9D90A9A /* Products */,
+				C8F55AA4B3FD7B7447A644A57FE774C4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9617503572C7E1C473E90210F9D90A9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1486C3EE80A1363BBADE82253DE79 /* CKCircleMenuView.framework */,
+				7D03A23446E121DCF8375DC570BD5593 /* Pods_CustomCells.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C4390785D5F360D8E1C44361D7A766E /* CKCircleMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				AE69B21CB80205EC9BAF946C1968E483 /* CKCircleMenuView.h */,
+				475F99B5400A6178A8D07656D5C89D8C /* CKCircleMenuView.m */,
+				D72ACC7DF636A9DE4A96014D07C94253 /* Support Files */,
+			);
+			path = CKCircleMenuView;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C8F55AA4B3FD7B7447A644A57FE774C4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37665949F90D39D47C6F79B8D67B8479 /* Pods-CustomCells */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D72ACC7DF636A9DE4A96014D07C94253 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10D8E3AF5A1CCA9869F3C75BF7633ED9 /* CKCircleMenuView.modulemap */,
+				29FB6AB1DF633E59CFC6A99A9B3AD46C /* CKCircleMenuView.xcconfig */,
+				A25127009EE15D237888C3548F92B381 /* CKCircleMenuView-dummy.m */,
+				110EE3D22B6CE648E432D62894181868 /* CKCircleMenuView-prefix.pch */,
+				65DB5672F188ED43B12E716590D547C0 /* CKCircleMenuView-umbrella.h */,
+				BFD7D02E137B7F0CFEA18EC462AB43D3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CKCircleMenuView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		914DDB5452197A2A332D8DCDDAED24B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DED5AB1C2545CFECCB73C99587535D /* CKCircleMenuView-umbrella.h in Headers */,
+				99AB6F214FDDBD4C8EDE0BFAB56F601C /* CKCircleMenuView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4E008E467F0A9B47986905C3002792 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061E092FCD7978E4664205D9158F49A6 /* Pods-CustomCells-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DB7366DE112C51190AD5817CFB5A87F2 /* CKCircleMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD18F614B865302B644AEDC60FC595CC /* Build configuration list for PBXNativeTarget "CKCircleMenuView" */;
+			buildPhases = (
+				D29D8C93BE3AE097A73C065B58B4CD5A /* Sources */,
+				B80EB0E5586FD38636CE22EFC3D3D249 /* Frameworks */,
+				914DDB5452197A2A332D8DCDDAED24B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CKCircleMenuView;
+			productName = CKCircleMenuView;
+			productReference = 1AB1486C3EE80A1363BBADE82253DE79 /* CKCircleMenuView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA1DB73AEBFFF5056F97C11DAA04BFC4 /* Pods-CustomCells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F53E83CDBB590FE4ACAF0D6D72344E3 /* Build configuration list for PBXNativeTarget "Pods-CustomCells" */;
+			buildPhases = (
+				15D414F165316517617B02DDB141CD01 /* Sources */,
+				6D03E4D2A48478FA4A1DC26A4A28F826 /* Frameworks */,
+				AB4E008E467F0A9B47986905C3002792 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACCFEDCBC3646C94F755693401E572EA /* PBXTargetDependency */,
+			);
+			name = "Pods-CustomCells";
+			productName = "Pods-CustomCells";
+			productReference = 7D03A23446E121DCF8375DC570BD5593 /* Pods_CustomCells.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9617503572C7E1C473E90210F9D90A9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB7366DE112C51190AD5817CFB5A87F2 /* CKCircleMenuView */,
+				EA1DB73AEBFFF5056F97C11DAA04BFC4 /* Pods-CustomCells */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D414F165316517617B02DDB141CD01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBE6648ED0F51EEA424085B0AED4AE5 /* Pods-CustomCells-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29D8C93BE3AE097A73C065B58B4CD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0526FCA4D6C5D4D3840F47F3627D4FC /* CKCircleMenuView-dummy.m in Sources */,
+				C5D0C8AB2129EE2DD20FA7C0DCF8DECD /* CKCircleMenuView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACCFEDCBC3646C94F755693401E572EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CKCircleMenuView;
+			target = DB7366DE112C51190AD5817CFB5A87F2 /* CKCircleMenuView */;
+			targetProxy = 79DFA4D3A479B597CDC8E7B14324039F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F033ECEF12C9858331BBBCB1AD5F8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FB6AB1DF633E59CFC6A99A9B3AD46C /* CKCircleMenuView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CKCircleMenuView/CKCircleMenuView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CKCircleMenuView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CKCircleMenuView/CKCircleMenuView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CKCircleMenuView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		653F0A4C7B7C747DDA7BC3E7F340E88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EAE5D47853F45EA905ACC4BB24BB8A /* Pods-CustomCells.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomCells/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomCells/Pods-CustomCells.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CustomCells;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		756FF143C9638B557D6FA518864C31E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF9D95815AB97C9ACB5638629F0402E /* Pods-CustomCells.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomCells/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomCells/Pods-CustomCells.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CustomCells;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F4E721DED73D349CE7AC700B05803F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FB6AB1DF633E59CFC6A99A9B3AD46C /* CKCircleMenuView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CKCircleMenuView/CKCircleMenuView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CKCircleMenuView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CKCircleMenuView/CKCircleMenuView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CKCircleMenuView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F53E83CDBB590FE4ACAF0D6D72344E3 /* Build configuration list for PBXNativeTarget "Pods-CustomCells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653F0A4C7B7C747DDA7BC3E7F340E88C /* Debug */,
+				756FF143C9638B557D6FA518864C31E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD18F614B865302B644AEDC60FC595CC /* Build configuration list for PBXNativeTarget "CKCircleMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E721DED73D349CE7AC700B05803F4C /* Debug */,
+				1F033ECEF12C9858331BBBCB1AD5F8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
